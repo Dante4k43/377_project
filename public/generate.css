@@ -1,0 +1,43 @@
+
+
+header {
+    background-color: #d3b8ff;
+}
+
+.header-links {
+    text-align: right;
+}
+
+.header-links a {
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#left-section {
+    width: 45%;
+}
+
+.criteria {
+    margin-bottom: 15px;
+}
+
+#right-section {
+    width: 45%;
+}
+
+#left-section, #right-section {
+    flex: 1;
+}
+
+
+#playlist {
+    list-style: none;
+    padding: 0;
+}

@@ -1,0 +1,13 @@
+#carousel {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+}
+
+#albumImage {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 400px;
+}

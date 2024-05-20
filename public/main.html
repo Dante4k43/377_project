@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="albumcarousel.css">
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
+        <script src="websitecarousel.js"></script>
+    </head>
+    <body>
+        <h3>SPOTIFY SNAPSHOT- HOME</h3>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="generate.html">Generate</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li class= "profile-icon"><a href="profile.html"><img src="https://static-00.iconduck.com/assets.00/profile-circle-icon-256x256-cm91gqm2.png" alt="Profile Icon"></a></li>
+            </ul>
+        </nav>
+            <div class="content-area">
+                <p>Welcome to Spotify Snapshot!</p>
+                <p>This is your access code:</p>
+                <button id="access_code" onclick="setCode()">test</button>
+                
+                
+                <h3>Top Spotify Songs and Artists</h3>
+                <div class="controls">
+                    <label for="top-count">Show Top:</label>
+                    <select id="top-count">
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                    </select>
+                    <label for="time-range">Time Range:</label>
+                    <select id="time-range">
+                        <option value="short_term">1 month</option>
+                        <option value="medium_term">6 months</option>
+                        <option value="long_term">1 year</option>
+                    </select>
+                    <button id="fetch-data">Fetch Top Songs and Artists</button>
+                </div>
+                <div class="container">
+                    <div id="top-songs" class="scrollable"></div>
+                    <div id="top-artists" class="scrollable"></div>
+                </div>
+                <div id="playlist-container"></div>
+                
+            </div>
+            <div id="carousel">
+                <img id="albumImage" src="" alt="Album Image">
+            </div>
+            <h4>Tickets:</h4>
+            <div id="submissions"></div>
+        <footer id="bar">
+            <p>Spotify Snapshot - INST377</p>
+        </footer>
+    </body>
+</html>
