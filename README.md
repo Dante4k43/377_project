@@ -1,4 +1,4 @@
-# 377-project 
+# Spotify API Wrapped Project
 Nicole Tran, Dante Caraballo, Abhiram Metuku, Dhruvit Patel, Adedokun Jagun
 
 https://377-project-ruddy.vercel.app/
